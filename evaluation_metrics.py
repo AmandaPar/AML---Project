@@ -49,7 +49,7 @@ def evaluate_metrics_per_label(actual, predicted, print_results=False):
         accuracy_score_per_label.append(accuracy_score)
         precision_score_per_label.append(precision_score)
         recall_score_per_label.append(recall_score)
-        f1_score_per_label.append(f1_score) 
+        f1_score_per_label.append(f1_score)
 
         if print_results:
             print(f"Accuracy score: {accuracy_score:.2f}")
